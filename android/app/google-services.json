@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774138808394",
+    "project_id": "macanudos-notes-a435e",
+    "storage_bucket": "macanudos-notes-a435e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774138808394:android:d41efb21b60d073c24beb3",
+        "android_client_info": {
+          "package_name": "com.jlptbootcamp.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM1osumnmlUJGnGw3pYux-56QrdL0fVZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
