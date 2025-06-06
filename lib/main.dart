@@ -20,8 +20,9 @@ void main() {
     ),
     home: const HomePage(),
     routes: {
-      '/login': (context) => const LoginView(),
-      '/register': (context) => const RegisterView()
+      '/login/': (context) => const LoginView(),
+      '/notes/': (context) => const NotesView(),
+      '/register/': (context) => const RegisterView()
     }
   ));
 }
@@ -118,7 +119,7 @@ Future<bool> showLogOutDialog(BuildContext context) {
           child: const Text('Cancel'),),
           TextButton(onPressed: () {
             Navigator.of(context).pop(true);
-            //FirebaseAuth.instance.signOut();
+            FirebaseAuth.instance.signOut();
           }, child: const Text('Log Out'),),
         ],
       );
